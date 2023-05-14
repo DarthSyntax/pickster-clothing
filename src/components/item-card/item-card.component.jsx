@@ -33,8 +33,8 @@ const ItemCard = ({ item }) => {
   };
 
   return (
-    <div className='item-card'>
-      <Card>
+    <div>
+      <Card className='item-card' style={{ backgroundColor: '#efededca' }}>
         <CardContent>
           <Typography variant='h6'>{`$${item.price} ${item.name} `}</Typography>
           <img src={item.imageUrl} alt={item.imageUrl} id={item.id} />

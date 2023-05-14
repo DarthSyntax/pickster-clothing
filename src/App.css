@@ -1,3 +1,13 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('../public/kevin-nalty-unsplash.jpg');
+  background-size: cover;
+}

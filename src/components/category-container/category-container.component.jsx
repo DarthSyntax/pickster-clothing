@@ -42,11 +42,14 @@ const CategoryContainer = () => {
   };
 
   return (
-    <div className='categories'>
+    <div>
       <Grid container spacing={3}>
         {categoryItems?.map((item) => {
           return (
-            <Card>
+            <Card
+              className='categories'
+              style={{ backgroundColor: '#efededca' }}
+            >
               <CardContent className='category-card'>
                 <Typography variant='h6'>{`${capitalizeString(
                   item.category
